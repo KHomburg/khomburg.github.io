@@ -3,7 +3,7 @@ function App() {
     <div className="app">
       <header>
         <h1>Kevin Homburg</h1>
-        <p className="title">Software Engineer</p>
+        <p className="title">Software Engineer & Problem Solver</p>
       </header>
       
       <div className="content-grid">
@@ -11,8 +11,9 @@ function App() {
           <h2>About Me</h2>
           <p>
             {/* Add your introduction here */}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo vel purus sollicitudin rhoncus. 
-            Passionate about creating elegant solutions to complex problems.
+            Hello there! 👋 I'm Kevin, a passionate software engineer who loves creating elegant solutions to complex problems. 
+            I specialize in building modern web applications with a focus on user experience and clean code.
+            When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying the outdoors.
           </p>
         </section>
         
@@ -68,6 +69,12 @@ function App() {
             <a href="#" className="social-link">Twitter</a>
           </div>
         </section>
+        
+        <div className="cta-container">
+          <h2 className="cta-text">Let's Build Something Amazing Together!</h2>
+          <p>Have a project in mind or just want to connect? I'm always open to new opportunities.</p>
+          <a href="mailto:email@example.com" className="cta-button">Say Hi! 👋</a>
+        </div>
         
         <footer>
           <p>© {new Date().getFullYear()} Kevin Homburg. All rights reserved.</p>

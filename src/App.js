@@ -86,21 +86,14 @@ function App() {
       {/* Aurora overlay */}
       <div className="aurora-overlay" />
       
-      <header>
-        <h1>{t('header.name')}</h1>
-      </header>
-      
       <div className="content-grid">
         {activeTab === 'me' && (
           <>
-            <section className="card">
-              <h2>{t('sections.about.title')}</h2>
-              <p>{t('sections.about.p1')}</p>
-              <p>{t('sections.about.p2')}</p>
-            </section>
-            
+           
             <section className="card">
               <h2>{t('sections.contact.title')}</h2>
+
+              <p>{t('sections.about.p1')}</p>
               
               {!submitted ? (
                 <form 
@@ -146,6 +139,11 @@ function App() {
                 <a href="https://www.instagram.com/kevin.h______" className="social-link">Instagram</a>
               </div>
             </section>
+            <section className="card">
+              <h2>{t('sections.about.title')}</h2>
+              <p>{t('sections.about.p2')}</p>
+            </section>
+           
           </>
         )}
       </div>

@@ -1,0 +1,53 @@
+{
+  "header": {
+    "name": "Kevin Homburg",
+    "title": "Softwareentwickler & Problemlöser"
+  },
+  "sections": {
+    "about": {
+      "title": "Über mich",
+      "p1": "Hallo! 👋 Ich bin Kevin, ein leidenschaftlicher Softwareentwickler, der es liebt, elegante Lösungen für komplexe Probleme zu entwickeln.",
+      "p2": "Ich spezialisiere mich auf den Bau moderner Webanwendungen mit Fokus auf Benutzererfahrung und sauberen Code. Wenn ich nicht programmiere, erkunde ich neue Technologien, trage zu Open Source bei oder genieße die Natur."
+    },
+    "skills": {
+      "title": "Fähigkeiten"
+    },
+    "projects": {
+      "title": "Projekte",
+      "alpha": {
+        "title": "Projekt Alpha",
+        "description": "Projektbeschreibung hier einfügen. Erklären Sie, was Sie gebaut haben und welche Technologien verwendet wurden."
+      },
+      "beta": {
+        "title": "Projekt Beta",
+        "description": "Ein weiteres tolles Projekt mit modernsten Technologien."
+      }
+    },
+    "experience": {
+      "title": "Erfahrung",
+      "senior": "Senior Entwickler bei TechCorp (2020-Heute)",
+      "frontend": "Frontend Entwickler bei WebSolutions (2018-2020)",
+      "junior": "Junior Entwickler bei StartupXYZ (2016-2018)"
+    },
+    "education": {
+      "title": "Bildung",
+      "msc": "MSc in Informatik",
+      "bsc": "BSc in Software Engineering"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "text": "Kontaktieren Sie mich unter:",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  },
+  "cta": {
+    "title": "Lassen Sie uns gemeinsam etwas Großartiges bauen!",
+    "text": "Haben Sie ein Projekt im Sinn oder möchten Sie sich einfach vernetzen? Ich bin immer offen für neue Möglichkeiten.",
+    "button": "Sagen Sie Hallo! 👋"
+  },
+  "footer": {
+    "rights": "© {{year}} Kevin Homburg. Alle Rechte vorbehalten."
+  }
+}

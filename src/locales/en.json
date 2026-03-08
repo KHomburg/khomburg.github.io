@@ -1,0 +1,53 @@
+{
+  "header": {
+    "name": "Kevin Homburg",
+    "title": "Software Engineer & Problem Solver"
+  },
+  "sections": {
+    "about": {
+      "title": "About Me",
+      "p1": "Hello there! 👋 I'm Kevin, a passionate software engineer who loves creating elegant solutions to complex problems.",
+      "p2": "I specialize in building modern web applications with a focus on user experience and clean code. When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying the outdoors."
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "projects": {
+      "title": "Projects",
+      "alpha": {
+        "title": "Project Alpha",
+        "description": "Project description goes here. Explain what you built and the technologies used."
+      },
+      "beta": {
+        "title": "Project Beta",
+        "description": "Another amazing project with cutting-edge technologies."
+      }
+    },
+    "experience": {
+      "title": "Experience",
+      "senior": "Senior Developer at TechCorp (2020-Present)",
+      "frontend": "Frontend Developer at WebSolutions (2018-2020)",
+      "junior": "Junior Developer at StartupXYZ (2016-2018)"
+    },
+    "education": {
+      "title": "Education",
+      "msc": "MSc in Computer Science",
+      "bsc": "BSc in Software Engineering"
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "Get in touch with me at:",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  },
+  "cta": {
+    "title": "Let's Build Something Amazing Together!",
+    "text": "Have a project in mind or just want to connect? I'm always open to new opportunities.",
+    "button": "Say Hi! 👋"
+  },
+  "footer": {
+    "rights": "© {{year}} Kevin Homburg. All rights reserved."
+  }
+}

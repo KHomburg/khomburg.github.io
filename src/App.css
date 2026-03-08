@@ -187,11 +187,9 @@ body {
 }
 
 .tab-btn {
-  
   background: transparent;
   color: var(--text-secondary);
   border: none;
-  /* padding: 12px 24px; */
   margin: 24px 20px;
   border-radius: var(--radius-md);
   cursor: pointer;
@@ -411,7 +409,6 @@ header::before {
   }
   
   .intro {
-    max-width: 800px;
     margin: 0 auto;
     text-align: center;
   }

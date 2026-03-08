@@ -4,19 +4,6 @@ function App() {
   const [particles, setParticles] = React.useState([]);
   const [activeTab, setActiveTab] = React.useState('me');
 
-  // Handle URL query parameters for section default
-  React.useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const section = params.get('section');
-    if (section && ['me', 'professional'].includes(section)) {
-      setActiveTab(section);
-    }
-  }, []);
-
-  const handleTabChange = (tab) => {
-    console.log('TAB CLICK: ', tab);
-    setActiveTab(tab);
-  };
 
   const toggleLanguage = () => {
     const nextLng = i18n.language === 'en' ? 'de' : 'en';
@@ -56,20 +43,6 @@ function App() {
         </button>
       </div>
 
-      {/* Tab Navigation */}
-      <button 
-        onClick={() => handleTabChange('me')} 
-        className={`tab-btn ${activeTab === 'me' ? 'active' : ''}`}
-      >
-        {t('tabs.me')}
-      </button>
-      <button 
-        onClick={() => handleTabChange('professional')} 
-        className={`tab-btn ${activeTab === 'professional' ? 'active' : ''}`}
-      >
-        {t('tabs.professional')}
-      </button>
-
       {/* Mouse follower glow */}
       <div 
         className="mouse-glow" 
@@ -103,90 +76,26 @@ function App() {
       
       <header>
         <h1>{t('header.name')}</h1>
-        <p className="title">{t('header.title')}</p>
       </header>
       
       <div className="content-grid">
         {activeTab === 'me' && (
           <>
-            <section className="intro">
+            <section className="card">
               <h2>{t('sections.about.title')}</h2>
               <p>{t('sections.about.p1')}</p>
               <p>{t('sections.about.p2')}</p>
             </section>
             
-            <section className="education">
-              <h2>{t('sections.education.title')}</h2>
-              <p>{t('sections.education.msc')}</p>
-              <p>{t('sections.education.bsc')}</p>
-            </section>
-            
-            <section className="contact">
+            <section className="card">
               <h2>{t('sections.contact.title')}</h2>
-              <p>{t('sections.contact.text')} <a href="mailto:email@example.com">email@example.com</a></p>
               <div className="social-links">
-                <a href="#" className="social-link">{t('sections.contact.github')}</a>
-                <a href="#" className="social-link">{t('sections.contact.linkedin')}</a>
-                <a href="#" className="social-link">{t('sections.contact.twitter')}</a>
+                <a href="https://github.com/KHomburg" className="social-link">Github</a>
+                <a href="https://www.instagram.com/kevin.h______" className="social-link">Instagram</a>
               </div>
             </section>
           </>
         )}
-
-        {activeTab === 'professional' && (
-          <>
-            <section className="skills">
-              <h2>{t('sections.skills.title')}</h2>
-              <div className="skills-container">
-                <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">React</span>
-                <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">CSS</span>
-                <span className="skill-tag">HTML</span>
-                <span className="skill-tag">TypeScript</span>
-                <span className="skill-tag">GraphQL</span>
-                <span className="skill-tag">UI/UX</span>
-              </div>
-            </section>
-            
-            <section className="projects">
-              <h2>{t('sections.projects.title')}</h2>
-              <div className="projects-container">
-                <div className="project-card">
-                  <h3>{t('sections.projects.alpha.title')}</h3>
-                  <p>{t('sections.projects.alpha.description')}</p>
-                </div>
-                <div className="project-card">
-                  <h3>{t('sections.projects.beta.title')}</h3>
-                  <p>{t('sections.projects.beta.description')}</p>
-                </div>
-              </div>
-            </section>
-            
-            <section className="experience">
-              <h2>{t('sections.experience.title')}</h2>
-              <p>{t('sections.experience.senior')}</p>
-              <p>{t('sections.experience.frontend')}</p>
-              <p>{t('sections.experience.junior')}</p>
-            </section>
-
-            <section className="education">
-              <h2>{t('sections.education.title')}</h2>
-              <p>{t('sections.education.msc')}</p>
-              <p>{t('sections.education.bsc')}</p>
-            </section>
-          </>
-        )}
-        
-        <div className="cta-container">
-          <h2 className="cta-text">{t('cta.title')}</h2>
-          <p>{t('cta.text')}</p>
-          <a href="mailto:email@example.com" className="cta-button">{t('cta.button')}</a>
-        </div>
-        
-        <footer>
-          <p>{t('footer.rights', { year: new Date().getFullYear() })}</p>
-        </footer>
       </div>
     </div>
   );

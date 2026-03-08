@@ -3,6 +3,10 @@
     "name": "Kevin Homburg",
     "title": "Software Engineer & Problem Solver"
   },
+  "tabs": {
+    "me": "This is me",
+    "professional": "Professional Details"
+  },
   "sections": {
     "about": {
       "title": "About Me",

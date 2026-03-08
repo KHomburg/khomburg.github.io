@@ -3,6 +3,10 @@
     "name": "Kevin Homburg",
     "title": "Softwareentwickler & Problemlöser"
   },
+  "tabs": {
+    "me": "Das bin ich",
+    "professional": "Berufliche Details"
+  },
   "sections": {
     "about": {
       "title": "Über mich",

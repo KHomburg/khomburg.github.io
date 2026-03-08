@@ -10,7 +10,7 @@
   "sections": {
     "about": {
       "title": "Über mich",
-      "p1": "Hallo! 👋 Ich bin Kevin, wenn du das hier liest, hast du mich irgendwo gesehen. Ich freue mich immer neue Leute kennen zu lernen, also sag doch einfach mal hallo, oder nutze das Formular unten, um ich eine Nachricht auf mein Handy zu senden.",
+      "p1": "Hallo! 👋 Ich bin Kevin, wenn du das hier liest, hast du mich irgendwo gesehen. Ich freue mich immer neue Leute kennen zu lernen, also sag doch einfach mal hallo, oder nutze das Formular unten, um mir eine Nachricht auf mein Handy zu senden.",
       "p2": "Ich bin leidenschaftlicher Software Entwickler, Bier Genießer und Liebhaber historischer Architektur und Kunst. Regelmäßg mit meinem Laptop auf reisen, um mir die schönen Seiten dieser Welt anzuschauen und dabei neue Leute kennenzulernen."
     },
     "skills": {
@@ -39,8 +39,12 @@
       "bsc": "BSc in Software Engineering"
     },
     "contact": {
-      "title": "Say Hi!",
-      "text": "Kontaktieren Sie mich unter:",
+      "title": "Sag Hi!",
+      "text": "Kontaktiere mich unter:",
+      "message_label": "Schreib mir etwas",
+      "contact_info_label": "E-Mail / Telefon / Instagram",
+      "submit_button": "Nachricht senden",
+      "success_message": "Vielen Dank! Deine Nachricht wurde gesendet.",
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "twitter": "Twitter"

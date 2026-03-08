@@ -41,6 +41,10 @@
     "contact": {
       "title": "Say Hi!",
       "text": "Get in touch with me at:",
+      "message_label": "Write something",
+      "contact_info_label": "Email / Phone / Instagram",
+      "submit_button": "Send Message",
+      "success_message": "Thank you! Your message has been sent.",
       "github": "GitHub",
       "linkedin": "LinkedIn",
       "twitter": "Twitter"

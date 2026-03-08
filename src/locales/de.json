@@ -10,8 +10,8 @@
   "sections": {
     "about": {
       "title": "Über mich",
-      "p1": "Hallo! 👋 Ich bin Kevin, ein leidenschaftlicher Softwareentwickler, der es liebt, elegante Lösungen für komplexe Probleme zu entwickeln.",
-      "p2": "Ich spezialisiere mich auf den Bau moderner Webanwendungen mit Fokus auf Benutzererfahrung und sauberen Code. Wenn ich nicht programmiere, erkunde ich neue Technologien, trage zu Open Source bei oder genieße die Natur."
+      "p1": "Hallo! 👋 Ich bin Kevin, wenn du das hier liest, hast du mich irgendwo gesehen. Ich freue mich immer neue Leute kennen zu lernen, also sag doch einfach mal hallo, oder nutze das Formular unten, um ich eine Nachricht auf mein Handy zu senden.",
+      "p2": "Ich bin leidenschaftlicher Software Entwickler, Bier Genießer und Liebhaber historischer Architektur und Kunst. Regelmäßg mit meinem Laptop auf reisen, um mir die schönen Seiten dieser Welt anzuschauen und dabei neue Leute kennenzulernen."
     },
     "skills": {
       "title": "Fähigkeiten"
@@ -39,7 +39,7 @@
       "bsc": "BSc in Software Engineering"
     },
     "contact": {
-      "title": "Kontakt",
+      "title": "Say Hi!",
       "text": "Kontaktieren Sie mich unter:",
       "github": "GitHub",
       "linkedin": "LinkedIn",

@@ -76,39 +76,26 @@ function App() {
       
       <header>
         <h1>{t('header.name')}</h1>
-        <p className="title">{t('header.title')}</p>
       </header>
       
       <div className="content-grid">
         {activeTab === 'me' && (
           <>
-            <section className="intro">
+            <section className="card">
               <h2>{t('sections.about.title')}</h2>
               <p>{t('sections.about.p1')}</p>
               <p>{t('sections.about.p2')}</p>
             </section>
             
-            <section className="contact">
+            <section className="card">
               <h2>{t('sections.contact.title')}</h2>
-              <p>{t('sections.contact.text')} <a href="mailto:email@example.com">email@example.com</a></p>
               <div className="social-links">
-                <a href="#" className="social-link">{t('sections.contact.github')}</a>
-                <a href="#" className="social-link">{t('sections.contact.linkedin')}</a>
-                <a href="#" className="social-link">{t('sections.contact.twitter')}</a>
+                <a href="https://github.com/KHomburg" className="social-link">Github</a>
+                <a href="https://www.instagram.com/kevin.h______" className="social-link">Instagram</a>
               </div>
             </section>
           </>
         )}
-        
-        <div className="cta-container">
-          <h2 className="cta-text">{t('cta.title')}</h2>
-          <p>{t('cta.text')}</p>
-          <a href="mailto:email@example.com" className="cta-button">{t('cta.button')}</a>
-        </div>
-        
-        <footer>
-          <p>{t('footer.rights', { year: new Date().getFullYear() })}</p>
-        </footer>
       </div>
     </div>
   );

@@ -10,8 +10,8 @@
   "sections": {
     "about": {
       "title": "About Me",
-      "p1": "Hello there! 👋 I'm Kevin, a passionate software engineer who loves creating elegant solutions to complex problems.",
-      "p2": "I specialize in building modern web applications with a focus on user experience and clean code. When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying the outdoors."
+      "p1": "Hi! 👋 I'm Kevin, if you're reading this, you've seen me somewhere. I'm always happy to meet new people, so just say hi, or use the form below to send a message to my phone.",
+      "p2": "I'm a passionate software developer, beer connoisseur, and lover of historical architecture and art. I regularly travel with my laptop to see the beautiful sides of this world and meet new people along the way."
     },
     "skills": {
       "title": "Skills"
@@ -39,7 +39,7 @@
       "bsc": "BSc in Software Engineering"
     },
     "contact": {
-      "title": "Contact",
+      "title": "Say Hi!",
       "text": "Get in touch with me at:",
       "github": "GitHub",
       "linkedin": "LinkedIn",

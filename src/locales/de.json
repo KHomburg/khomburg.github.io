@@ -1,61 +1,115 @@
 {
   "header": {
     "name": "Kevin Homburg",
-    "title": "Softwareentwickler & Problemlöser"
+    "title": "Software-Bastler, Städteentdecker und begeisterter Sammler guter Gespräche"
   },
-  "tabs": {
-    "me": "Das bin ich",
-    "professional": "Berufliche Details"
+  "hero": {
+    "eyebrow": "Weniger Portfolio. Mehr Einladung.",
+    "intro": "Wenn dich diese Seite zu mir geführt hat, würde ich deine Geschichte wirklich gern auch hören.",
+    "description": "Ich baue Software, ziehe gerne durch interessante Orte und mag Menschen mit Neugier, guten Geschichten und Lust neues zu lernen. Wenn das nach dir klingt, verstehen wir uns wahrscheinlich gut.",
+    "primary_cta": "Schreib mir",
+    "secondary_cta": "Sag hi auf Instagram",
+    "panel_title": "Aktueller Betriebsmodus",
+    "panel_text": "Meistens irgendwo zwischen Dinge am Laptop bauen, schöne Gebäude bestaunen und kleine Momente sammeln, über die man später gern spricht.",
+    "tags": [
+      "Software mit Persönlichkeit",
+      "reist mit Laptop",
+      "immer offen für Kaffee",
+      "Fan von Kunst und alten Gebäuden"
+    ],
+    "bubbles": [
+      "Standardmäßig neugierig",
+      "Lieber locker als steif",
+      "Offen für spontane Pläne"
+    ],
+    "stats": [
+      {
+        "value": "100%",
+        "label": "offen für neue Leute",
+        "text": "Fremde sind oft einfach nur zukünftige Geschichten mit gutem Timing."
+      },
+      {
+        "value": "Laptop",
+        "label": "fast immer in der Nähe",
+        "text": "Normalerweise zusammen mit Karten, Screenshots und halbfertigen Ideen."
+      },
+      {
+        "value": "Ja",
+        "label": "zu spontanen Plänen",
+        "text": "Kaffee, Spaziergang, Museum, Side-Project oder gutes Gespräch."
+      },
+      {
+        "value": "Offen",
+        "label": "für Nachrichten mit Gefühl",
+        "text": "Kurz, echt und verspielt schlägt geschniegelt eigentlich immer."
+      }
+    ]
   },
   "sections": {
     "about": {
-      "title": "Über mich",
-      "p1": "Hallo! 👋 Ich bin Kevin, wenn du das hier liest, hast du mich irgendwo gesehen. Ich freue mich immer neue Leute kennen zu lernen, also sag doch einfach mal hallo, oder nutze das Formular unten, um mir eine Nachricht auf mein Handy zu senden.",
-      "p2": "Ich bin leidenschaftlicher Software Entwickler, Bier Genießer und Liebhaber historischer Architektur und Kunst. Regelmäßg mit meinem Laptop auf reisen, um mir die schönen Seiten dieser Welt anzuschauen und dabei neue Leute kennenzulernen."
+      "kicker": "Wie ich so bin",
+      "title": "Die Kurzfassung",
+      "p1": "Hi, ich bin Kevin. Wenn du das hier liest, haben sich unsere Wege wahrscheinlich irgendwie schon gekreuzt, und genau dadurch ist diese Seite sofort spannender als ein normales Portfolio. Ich bin eher der Typ, der gern neue Verbindungen knüpft, statt im Internet geheimnisvoll zu wirken.",
+      "p2": "Ich mag Software, Reisen, gutes Design, Bier, Architektur, Kunst und diese Gespräche, die ganz klein anfangen und plötzlich das Highlight der Woche werden. Wenn du hallo sagen willst: bitte unbedingt. Genau dafür gibt es diese Seite."
     },
-    "skills": {
-      "title": "Fähigkeiten"
+    "vibes": {
+      "cards": [
+        {
+          "kicker": "Bastler-Kopf",
+          "title": "Ich mag Dinge, die lebendig wirken",
+          "text": "Apps, Interfaces, Ideen, Pläne. Wenn man etwas interessanter formen kann, will ich meistens direkt dran herumprobieren."
+        },
+        {
+          "kicker": "Freundliche Energie",
+          "title": "Sympathisch schlägt seriös",
+          "text": "Ich hinterlasse lieber einen warmen ersten Eindruck als einen steifen. Echte Verbindung macht sowieso mehr Spaß."
+        },
+        {
+          "kicker": "Reisemodus",
+          "title": "Ich sammle Orte und Geschichten",
+          "text": "Städte, kleine Cafes, Museen, unerwartete Abzweigungen. Eine Empfehlung oder Rückfrage habe ich fast immer parat."
+        }
+      ]
     },
-    "projects": {
-      "title": "Projekte",
-      "alpha": {
-        "title": "Projekt Alpha",
-        "description": "Projektbeschreibung hier einfügen. Erklären Sie, was Sie gebaut haben und welche Technologien verwendet wurden."
-      },
-      "beta": {
-        "title": "Projekt Beta",
-        "description": "Ein weiteres tolles Projekt mit modernsten Technologien."
-      }
-    },
-    "experience": {
-      "title": "Erfahrung",
-      "senior": "Senior Entwickler bei TechCorp (2020-Heute)",
-      "frontend": "Frontend Entwickler bei WebSolutions (2018-2020)",
-      "junior": "Junior Entwickler bei StartupXYZ (2016-2018)"
-    },
-    "education": {
-      "title": "Bildung",
-      "msc": "MSc in Informatik",
-      "bsc": "BSc in Software Engineering"
+    "reasons": {
+      "kicker": "Gründe mir zu schreiben",
+      "title": "Du solltest mir definitiv hallo sagen, wenn ...",
+      "items": [
+        "du mich irgendwo gesehen hast und aus dem Zufall gern ein echtes Gespräch machen willst.",
+        "du einen Reisetipp, versteckten Ort oder ein Museum kennst, das ich gesehen haben sollte.",
+        "du etwas Lustiges, Nützliches, Seltsames oder idealerweise alles gleichzeitig bauen willst.",
+        "du einfach gute, warme Energie magst und deinem Gefühl folgen wolltest."
+      ]
     },
     "contact": {
-      "title": "Sag Hi!",
-      "text": "Kontaktiere mich unter:",
-      "message_label": "Schreib mir etwas",
-      "contact_info_label": "E-Mail / Telefon / Instagram",
-      "submit_button": "Nachricht senden",
-      "success_message": "Vielen Dank! Deine Nachricht wurde gesendet.",
-      "github": "GitHub",
-      "linkedin": "LinkedIn",
-      "twitter": "Twitter"
+      "kicker": "Jetzt du",
+      "title": "Sag hi auf die einfache Art",
+      "intro": "Schick mir eine Zeile, eine Empfehlung, eine Projektidee oder eine kleine Nachricht mit ausgezeichnetem Timing. Ich mag all das.",
+      "prompt_title": "Kein Einstieg? Nimm einfach einen:",
+      "prompts": [
+        "Kaffee irgendwann?",
+        "Was ist deine Lieblingsstadt?",
+        "Lust, etwas Cooles zu bauen?",
+        "Ich habe dich gesehen und wollte hi sagen."
+      ],
+      "message_label": "Deine Nachricht",
+      "message_placeholder": "Alles von 'hi' bis zu einer überraschend präzisen Reiseempfehlung.",
+      "contact_info_label": "Wie soll ich dir antworten?",
+      "contact_placeholder": "Instagram, Telefonnummer, E-Mail, Brieftauben-Anleitung...",
+      "submit_button": "Nachricht abschicken",
+      "success_message": "Nachricht angekommen. Ich freue mich schon aufs Lesen.",
+      "note": "Kurze Nachrichten gewinnen. Echte Nachrichten noch mehr.",
+      "qr_kicker": "Bonus-Abkürzung",
+      "qr_title": "Scannen, falls Tippen zu ernst wirkt",
+      "qr_text": "Der QR-Code ist für maximale Spontanität und minimale Reibung da.",
+      "qr_caption": "Nimm einfach den Weg, der dich am schnellsten zu einem Hallo bringt.",
+      "qr_alt": "QR-Code zum Kontakt mit Kevin",
+      "availability_title": "Meistens gut erreichbar",
+      "availability_text": "Auch wenn ich im Zug sitze, im Museum bin oder durch eine neue Stadt laufe, melde ich mich zurück.",
+      "social": {
+        "github": "GitHub",
+        "instagram": "Instagram"
+      }
     }
-  },
-  "cta": {
-    "title": "Lassen Sie uns gemeinsam etwas Großartiges bauen!",
-    "text": "Haben Sie ein Projekt im Sinn oder möchten Sie sich einfach vernetzen? Ich bin immer offen für neue Möglichkeiten.",
-    "button": "Sagen Sie Hallo! 👋"
-  },
-  "footer": {
-    "rights": "© {{year}} Kevin Homburg. Alle Rechte vorbehalten."
   }
 }

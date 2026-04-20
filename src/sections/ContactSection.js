@@ -103,13 +103,13 @@ window.AppSections.ContactSection = function ContactSection({
           <p>{t('sections.contact.note')}</p>
         </div>
 
-        <div className="availability-card">
+        {/* <div className="availability-card">
           <span className="availability-dot" />
           <div>
             <h3>{t('sections.contact.availability_title')}</h3>
             <p>{t('sections.contact.availability_text')}</p>
           </div>
-        </div>
+        </div> */}
       </aside>
 
       <iframe

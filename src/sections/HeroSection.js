@@ -39,7 +39,7 @@ window.AppSections.HeroSection = function HeroSection({
 
       <div className="hero-stack">
         <div className="sticker-cloud">
-          {heroBubbles.map((bubble, index) => (
+          {heroBubbles?.map((bubble, index) => (
             <span key={bubble} className={`sticker-bubble bubble-${index + 1}`}>
               {bubble}
             </span>
@@ -51,7 +51,7 @@ window.AppSections.HeroSection = function HeroSection({
           <p>{t('hero.panel_text')}</p>
         </div>
 
-        <div className="stats-grid">
+        {/* <div className="stats-grid">
           {heroStats.map((item) => (
             <article key={item.label} className="stat-card">
               <span className="stat-value">{item.value}</span>
@@ -59,7 +59,7 @@ window.AppSections.HeroSection = function HeroSection({
               <p>{item.text}</p>
             </article>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

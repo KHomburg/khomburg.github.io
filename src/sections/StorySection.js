@@ -15,13 +15,13 @@ window.AppSections.StorySection = function StorySection({ t, vibeCards }) {
         </article>
 
         <div className="story-card-list">
-          {vibeCards.map((card, index) => (
+          {/* {vibeCards.map((card, index) => (
             <article key={card.title} className={`story-card tilt-${index + 1}`}>
               <p className="story-card-kicker">{card.kicker}</p>
               <h3>{card.title}</h3>
               <p>{card.text}</p>
             </article>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>

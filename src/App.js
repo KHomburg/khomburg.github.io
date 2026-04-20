@@ -71,7 +71,6 @@ function App() {
       <main className="page-shell">
         <HeroSection
           t={t}
-          heroBubbles={heroBubbles}
           heroStats={heroStats}
           onScrollToContact={scrollToContact}
         />

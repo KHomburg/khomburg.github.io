@@ -30,25 +30,6 @@
       "p1": "Hi, I'm Kevin. I made this page because I like meeting new people, but when I am out on my own I far too often end up staring at my screen or forget to ask for contact details so we actually stay in touch. So this is an invitation: if you see me somewhere, come say hi or send me a message if you feel like having a conversation, staying in touch, or just saying hello.",
       "p2": "I like software, travel, good design, beer, architecture, art, good conversations, and anything that makes it fun to spend time together."
     },
-    "vibes": {
-      "cards": [
-        {
-          "kicker": "Builder brain",
-          "title": "I like making things feel alive",
-          "text": "Apps, interfaces, ideas, plans. If it can be shaped into something more interesting, I want to touch it."
-        },
-        {
-          "kicker": "Golden retriever energy",
-          "title": "Friendly wins every time",
-          "text": "I'd rather create a warm first impression than a serious one. Real connection is more fun anyway."
-        },
-        {
-          "kicker": "Travel mode",
-          "title": "I collect places and stories",
-          "text": "Cities, little cafes, museums, unexpected detours. I usually have a recommendation or a question ready."
-        }
-      ]
-    },
     "reasons": {
       "kicker": "Reasons to message me",
       "title": "You should absolutely say hi if...",
@@ -63,27 +44,12 @@
       "kicker": "Your turn",
       "title": "Say hi the easy way",
       "intro": "Send a line, a recommendation, a project idea, or a tiny message with excellent timing. I'm into all of it.",
-      "prompt_title": "Need an opener? Borrow one:",
-      "prompts": [
-        "Coffee sometime?",
-        "Tell me your favorite city.",
-        "Want to build something fun?",
-        "I saw you and wanted to say hi."
-      ],
       "message_label": "Your message",
       "message_placeholder": "Anything from 'hi' to a surprisingly specific travel recommendation.",
       "contact_info_label": "How should I reach you?",
       "contact_placeholder": "Instagram, phone, email, carrier pigeon instructions...",
       "submit_button": "Send the message",
       "success_message": "Message received. I'm looking forward to reading it.",
-      "note": "Short messages win. Genuine messages win harder.",
-      "qr_kicker": "Bonus shortcut",
-      "qr_title": "Scan if typing feels too serious",
-      "qr_text": "The QR is here for maximum spontaneity and minimal friction.",
-      "qr_caption": "Use whichever route gets you to hello the fastest.",
-      "qr_alt": "QR code for contacting Kevin",
-      "availability_title": "Usually responsive",
-      "availability_text": "Even if I'm on a train, in a museum, or walking through a new city, I still get back to people.",
       "social": {
         "github": "GitHub",
         "instagram": "Instagram"

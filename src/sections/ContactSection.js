@@ -2,13 +2,11 @@ window.AppSections = window.AppSections || {};
 
 window.AppSections.ContactSection = function ContactSection({
   t,
-  prompts,
   socialLinks,
   message,
   contact,
   isSubmitting,
   submitted,
-  onPromptClick,
   onMessageChange,
   onContactChange,
   onFormSubmit,
@@ -21,22 +19,6 @@ window.AppSections.ContactSection = function ContactSection({
         <p className="section-kicker">{t('sections.contact.kicker')}</p>
         <h2>{t('sections.contact.title')}</h2>
         <p className="contact-intro">{t('sections.contact.intro')}</p>
-
-        {/* <div className="prompt-strip">
-          <p className="prompt-title">{t('sections.contact.prompt_title')}</p>
-          <div className="prompt-list">
-            {prompts.map((prompt) => (
-              <button
-                key={prompt}
-                type="button"
-                className="prompt-chip"
-                onClick={() => onPromptClick(prompt)}
-              >
-                {prompt}
-              </button>
-            ))}
-          </div>
-        </div> */}
 
         {!submitted ? (
           <form
@@ -97,20 +79,6 @@ window.AppSections.ContactSection = function ContactSection({
           ))}
         </div>
       </div>
-
-      <aside className="contact-aside">
-        {/* <div className="contact-note">
-          <p>{t('sections.contact.note')}</p>
-        </div> */}
-
-        {/* <div className="availability-card">
-          <span className="availability-dot" />
-          <div>
-            <h3>{t('sections.contact.availability_title')}</h3>
-            <p>{t('sections.contact.availability_text')}</p>
-          </div>
-        </div> */}
-      </aside>
 
       <iframe
         name="hidden_iframe"

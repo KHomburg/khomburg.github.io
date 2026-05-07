@@ -13,9 +13,6 @@ function App() {
   const contactSectionRef = React.useRef(null);
 
   const heroBubbles = t('hero.bubbles', { returnObjects: true }) || [];
-  const heroStats = t('hero.stats', { returnObjects: true }) || [];
-  const vibeCards = t('sections.vibes.cards', { returnObjects: true }) || [];
-  const prompts = t('sections.contact.prompts', { returnObjects: true }) || [];
 
   const socialLinks = [
     {
@@ -39,17 +36,6 @@ function App() {
     }
   };
 
-  const applyPrompt = (prompt) => {
-    setSubmitted(false);
-    setMessage((currentMessage) => {
-      if (!currentMessage.trim()) {
-        return prompt;
-      }
-
-      return `${currentMessage}\n\n${prompt}`;
-    });
-  };
-
   const handleFormSubmit = () => {
     setIsSubmitting(true);
   };
@@ -71,19 +57,16 @@ function App() {
       <main className="page-shell">
         <HeroSection
           t={t}
-          heroStats={heroStats}
           onScrollToContact={scrollToContact}
         />
-        <StorySection t={t} vibeCards={vibeCards} />
+        <StorySection t={t} />
         <ContactSection
           t={t}
-          prompts={prompts}
           socialLinks={socialLinks}
           message={message}
           contact={contact}
           isSubmitting={isSubmitting}
           submitted={submitted}
-          onPromptClick={applyPrompt}
           onMessageChange={setMessage}
           onContactChange={setContact}
           onFormSubmit={handleFormSubmit}

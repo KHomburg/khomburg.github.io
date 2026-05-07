@@ -30,25 +30,6 @@
       "p1": "Hi, ich bin Kevin. Ich habe diese Seite erstellt, da ich gerne neue Leute kennenlerne, aber wenn ich allein unterwegs bin viel zu häufig auf meinen Monitor starre, oder vergesse nach Kontaktdaten zu fragen, um auch wirklich in Kontakt zu bleiben. Das hier ist also eine Einladung, wenn du mich irgendwo siehst, anzusprechen oder mir zu schreiben, wenn du Lust auf ein Gespräch hast, in Kontakten bleiben, oder einfach hallo sagen willst.",
       "p2": "Ich mag Software, Reisen, gutes Design, Bier, Architektur, Kunst, gute Gespräche und alles mit dem man sich gesellig die Zeit vertreiben kann."
     },
-    "vibes": {
-      "cards": [
-        {
-          "kicker": "Bastler-Kopf",
-          "title": "Ich mag Dinge, die lebendig wirken",
-          "text": "Apps, Interfaces, Ideen, Pläne. Wenn man etwas interessanter formen kann, will ich meistens direkt dran herumprobieren."
-        },
-        {
-          "kicker": "Freundliche Energie",
-          "title": "Sympathisch schlägt seriös",
-          "text": "Ich hinterlasse lieber einen warmen ersten Eindruck als einen steifen. Echte Verbindung macht sowieso mehr Spaß."
-        },
-        {
-          "kicker": "Reisemodus",
-          "title": "Ich sammle Orte und Geschichten",
-          "text": "Städte, kleine Cafes, Museen, unerwartete Abzweigungen. Eine Empfehlung oder Rückfrage habe ich fast immer parat."
-        }
-      ]
-    },
     "reasons": {
       "kicker": "Gründe mir zu schreiben",
       "title": "Du solltest mir definitiv hallo sagen, wenn ...",
@@ -63,27 +44,12 @@
       "kicker": "Jetzt du",
       "title": "Sag hi auf die einfache Art",
       "intro": "Schick mir eine Zeile, eine Empfehlung, eine Projektidee oder eine kleine Nachricht mit ausgezeichnetem Timing. Ich mag all das.",
-      "prompt_title": "Kein Einstieg? Nimm einfach einen:",
-      "prompts": [
-        "Kaffee irgendwann?",
-        "Was ist deine Lieblingsstadt?",
-        "Lust, etwas Cooles zu bauen?",
-        "Ich habe dich gesehen und wollte hi sagen."
-      ],
       "message_label": "Deine Nachricht",
       "message_placeholder": "Alles von 'hi' bis zu einer überraschend präzisen Reiseempfehlung.",
       "contact_info_label": "Wie soll ich dir antworten?",
       "contact_placeholder": "Instagram, Telefonnummer, E-Mail, Brieftauben-Anleitung...",
       "submit_button": "Nachricht abschicken",
       "success_message": "Nachricht angekommen. Ich freue mich schon aufs Lesen.",
-      "note": "Kurze Nachrichten gewinnen. Echte Nachrichten noch mehr.",
-      "qr_kicker": "Bonus-Abkürzung",
-      "qr_title": "Scannen, falls Tippen zu ernst wirkt",
-      "qr_text": "Der QR-Code ist für maximale Spontanität und minimale Reibung da.",
-      "qr_caption": "Nimm einfach den Weg, der dich am schnellsten zu einem Hallo bringt.",
-      "qr_alt": "QR-Code zum Kontakt mit Kevin",
-      "availability_title": "Meistens gut erreichbar",
-      "availability_text": "Auch wenn ich im Zug sitze, im Museum bin oder durch eine neue Stadt laufe, melde ich mich zurück.",
       "social": {
         "github": "GitHub",
         "instagram": "Instagram"

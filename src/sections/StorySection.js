@@ -1,6 +1,6 @@
 window.AppSections = window.AppSections || {};
 
-window.AppSections.StorySection = function StorySection({ t, vibeCards }) {
+window.AppSections.StorySection = function StorySection({ t }) {
   return (
     <section className="story-section section-panel">
       <div className="section-heading">
@@ -14,15 +14,6 @@ window.AppSections.StorySection = function StorySection({ t, vibeCards }) {
           <p>{t('sections.about.p2')}</p>
         </article>
 
-        <div className="story-card-list">
-          {/* {vibeCards.map((card, index) => (
-            <article key={card.title} className={`story-card tilt-${index + 1}`}>
-              <p className="story-card-kicker">{card.kicker}</p>
-              <h3>{card.title}</h3>
-              <p>{card.text}</p>
-            </article>
-          ))} */}
-        </div>
       </div>
     </section>
   );

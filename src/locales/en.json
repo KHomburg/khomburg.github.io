@@ -10,18 +10,7 @@
     "primary_cta": "Send me a note",
     "secondary_cta": "Say hi on Instagram",
     "panel_title": "Current operating mode",
-    "panel_text": "Usually somewhere between building things on my laptop, roaming the city with friends, or going on spontaneous city trips",
-    "tags": [
-      "software with personality",
-      "travels with a laptop",
-      "always up for coffee",
-      "big fan of art and old buildings"
-    ],
-    "bubbles": [
-      "Curious by default",
-      "Fun over stiff",
-      "Open to surprise plans"
-    ]
+    "panel_text": "Usually somewhere between building things on my laptop, roaming the city with friends, or going on spontaneous city trips"
   },
   "sections": {
     "about": {
@@ -41,7 +30,6 @@
       ]
     },
     "contact": {
-      "kicker": "Your turn",
       "title": "Say hi the easy way",
       "intro": "Send a line, a recommendation, a project idea, or a tiny message with excellent timing. I'm into all of it.",
       "message_label": "Your message",

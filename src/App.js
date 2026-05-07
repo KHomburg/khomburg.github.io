@@ -2,7 +2,7 @@ function App() {
   const { t, i18n } = window.ReactI18next.useTranslation();
   const { useMousePosition, useFloatingParticles } = window.AppHooks;
   const { LanguageSwitcher, BackgroundEffects } = window.AppComponents;
-  const { HeroSection, StorySection, ReasonsSection, ContactSection } = window.AppSections;
+  const { HeroSection, StorySection, ContactSection } = window.AppSections;
 
   const mousePosition = useMousePosition();
   const particles = useFloatingParticles();
@@ -11,8 +11,6 @@ function App() {
   const [isSubmitting, setIsSubmitting] = React.useState(false);
   const [submitted, setSubmitted] = React.useState(false);
   const contactSectionRef = React.useRef(null);
-
-  const heroBubbles = t('hero.bubbles', { returnObjects: true }) || [];
 
   const socialLinks = [
     {

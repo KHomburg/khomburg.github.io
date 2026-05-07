@@ -6938,7 +6938,6 @@
 
   var EventInterface = {
     eventPhase: 0,
-    bubbles: 0,
     cancelable: 0,
     timeStamp: function (event) {
       return event.timeStamp || Date.now();

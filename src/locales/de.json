@@ -7,27 +7,16 @@
     "eyebrow": "Weniger Portfolio. Mehr Einladung.",
     "intro": "Du hast mich irgendwo gesehen und bist so hier gelandet. Schreib mir gerne, oder sprich mich an. Ich freue mich immer über neue Verbindungen, interessante Gespräche und spontane Pläne.",
     "description": "",
-    "primary_cta": "Schreib mir",
-    "secondary_cta": "Sag hi auf Instagram",
+    "primary_cta": "Schreib mir hier",
+    "secondary_cta": "Oder auf Instagram",
     "panel_title": "Aktueller Betriebsmodus",
-    "panel_text": "Meistens irgendwo zwischen Dinge am Laptop bauen, mit Freunden durch die Stadt ziehen oder auf spontanen Städtetrips",
-    "tags": [
-      "Software mit Persönlichkeit",
-      "reist mit Laptop",
-      "immer offen für Kaffee",
-      "Fan von Kunst und alten Gebäuden"
-    ],
-    "bubbles": [
-      "Standardmäßig neugierig",
-      "Lieber locker als steif",
-      "Offen für spontane Pläne"
-    ]
+    "panel_text": "Meistens irgendwo zwischen Dinge am Laptop bauen, mit Freunden durch die Stadt ziehen oder auf spontanen Städtetrips"
   },
   "sections": {
     "about": {
       "kicker": "Wer ich bin",
       "title": "Die Kurzfassung",
-      "p1": "Hi, ich bin Kevin. Ich habe diese Seite erstellt, da ich gerne neue Leute kennenlerne, aber wenn ich allein unterwegs bin viel zu häufig auf meinen Monitor starre, oder vergesse nach Kontaktdaten zu fragen, um auch wirklich in Kontakt zu bleiben. Das hier ist also eine Einladung, wenn du mich irgendwo siehst, anzusprechen oder mir zu schreiben, wenn du Lust auf ein Gespräch hast, in Kontakten bleiben, oder einfach hallo sagen willst.",
+      "p1": "Hi, ich bin Kevin. Ich habe diese Seite erstellt, da ich gerne neue Leute kennenlerne, aber wenn ich allein unterwegs bin viel zu häufig auf meinen Monitor starre, oder vergesse nach Kontaktdaten zu fragen, um auch wirklich in Kontakt zu bleiben. Das hier ist also eine Einladung, wenn du mich irgendwo siehst, anzusprechen oder mir zu schreiben, wenn du Lust auf ein Gespräch hast, um in Kontakt zu bleiben, oder einfach hallo sagen willst.",
       "p2": "Ich mag Software, Reisen, gutes Design, Bier, Architektur, Kunst, gute Gespräche und alles mit dem man sich gesellig die Zeit vertreiben kann."
     },
     "reasons": {
@@ -41,9 +30,8 @@
       ]
     },
     "contact": {
-      "kicker": "Jetzt du",
       "title": "Sag hi auf die einfache Art",
-      "intro": "Schick mir eine Zeile, eine Empfehlung, eine Projektidee oder eine kleine Nachricht mit ausgezeichnetem Timing. Ich mag all das.",
+      "intro": "",
       "message_label": "Deine Nachricht",
       "message_placeholder": "Alles von 'hi' bis zu einer überraschend präzisen Reiseempfehlung.",
       "contact_info_label": "Wie soll ich dir antworten?",

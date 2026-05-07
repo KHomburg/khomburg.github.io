@@ -22,7 +22,7 @@ window.AppSections.ContactSection = function ContactSection({
         <h2>{t('sections.contact.title')}</h2>
         <p className="contact-intro">{t('sections.contact.intro')}</p>
 
-        <div className="prompt-strip">
+        {/* <div className="prompt-strip">
           <p className="prompt-title">{t('sections.contact.prompt_title')}</p>
           <div className="prompt-list">
             {prompts.map((prompt) => (
@@ -36,7 +36,7 @@ window.AppSections.ContactSection = function ContactSection({
               </button>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {!submitted ? (
           <form
@@ -99,9 +99,9 @@ window.AppSections.ContactSection = function ContactSection({
       </div>
 
       <aside className="contact-aside">
-        <div className="contact-note">
+        {/* <div className="contact-note">
           <p>{t('sections.contact.note')}</p>
-        </div>
+        </div> */}
 
         {/* <div className="availability-card">
           <span className="availability-dot" />

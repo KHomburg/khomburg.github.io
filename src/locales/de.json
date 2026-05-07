@@ -1,16 +1,16 @@
 {
   "header": {
     "name": "Kevin Homburg",
-    "title": "Software-Bastler, Städteentdecker und begeisterter Sammler guter Gespräche"
+    "title": "Software-Bastler, Städteentdecker, Bierliebhaber"
   },
   "hero": {
     "eyebrow": "Weniger Portfolio. Mehr Einladung.",
-    "intro": "Wenn dich diese Seite zu mir geführt hat, würde ich deine Geschichte wirklich gern auch hören.",
-    "description": "Ich baue Software, ziehe gerne durch interessante Orte und mag Menschen mit Neugier, guten Geschichten und Lust neues zu lernen. Wenn das nach dir klingt, verstehen wir uns wahrscheinlich gut.",
+    "intro": "Du hast mich irgendwo gesehen und bist so hier gelandet. Schreib mir gerne, oder sprich mich an. Ich freue mich immer über neue Verbindungen, interessante Gespräche und spontane Pläne.",
+    "description": "",
     "primary_cta": "Schreib mir",
     "secondary_cta": "Sag hi auf Instagram",
     "panel_title": "Aktueller Betriebsmodus",
-    "panel_text": "Meistens irgendwo zwischen Dinge am Laptop bauen, schöne Gebäude bestaunen und kleine Momente sammeln, über die man später gern spricht.",
+    "panel_text": "Meistens irgendwo zwischen Dinge am Laptop bauen, mit Freunden durch die Stadt ziehen oder auf spontanen Städtetrips",
     "tags": [
       "Software mit Persönlichkeit",
       "reist mit Laptop",
@@ -21,36 +21,14 @@
       "Standardmäßig neugierig",
       "Lieber locker als steif",
       "Offen für spontane Pläne"
-    ],
-    "stats": [
-      {
-        "value": "100%",
-        "label": "offen für neue Leute",
-        "text": "Fremde sind oft einfach nur zukünftige Geschichten mit gutem Timing."
-      },
-      {
-        "value": "Laptop",
-        "label": "fast immer in der Nähe",
-        "text": "Normalerweise zusammen mit Karten, Screenshots und halbfertigen Ideen."
-      },
-      {
-        "value": "Ja",
-        "label": "zu spontanen Plänen",
-        "text": "Kaffee, Spaziergang, Museum, Side-Project oder gutes Gespräch."
-      },
-      {
-        "value": "Offen",
-        "label": "für Nachrichten mit Gefühl",
-        "text": "Kurz, echt und verspielt schlägt geschniegelt eigentlich immer."
-      }
     ]
   },
   "sections": {
     "about": {
-      "kicker": "Wie ich so bin",
+      "kicker": "Wer ich bin",
       "title": "Die Kurzfassung",
-      "p1": "Hi, ich bin Kevin. Wenn du das hier liest, haben sich unsere Wege wahrscheinlich irgendwie schon gekreuzt, und genau dadurch ist diese Seite sofort spannender als ein normales Portfolio. Ich bin eher der Typ, der gern neue Verbindungen knüpft, statt im Internet geheimnisvoll zu wirken.",
-      "p2": "Ich mag Software, Reisen, gutes Design, Bier, Architektur, Kunst und diese Gespräche, die ganz klein anfangen und plötzlich das Highlight der Woche werden. Wenn du hallo sagen willst: bitte unbedingt. Genau dafür gibt es diese Seite."
+      "p1": "Hi, ich bin Kevin. Ich habe diese Seite erstellt, da ich gerne neue Leute kennenlerne, aber wenn ich allein unterwegs bin viel zu häufig auf meinen Monitor starre, oder vergesse nach Kontaktdaten zu fragen, um auch wirklich in Kontakt zu bleiben. Das hier ist also eine Einladung, wenn du mich irgendwo siehst, anzusprechen oder mir zu schreiben, wenn du Lust auf ein Gespräch hast, in Kontakten bleiben, oder einfach hallo sagen willst.",
+      "p2": "Ich mag Software, Reisen, gutes Design, Bier, Architektur, Kunst, gute Gespräche und alles mit dem man sich gesellig die Zeit vertreiben kann."
     },
     "vibes": {
       "cards": [

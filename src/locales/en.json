@@ -1,16 +1,16 @@
 {
   "header": {
     "name": "Kevin Homburg",
-    "title": "Software builder, city wanderer, and enthusiastic collector of good conversations"
+    "title": "Software tinkerer, city explorer, beer enthusiast"
   },
   "hero": {
     "eyebrow": "Less portfolio. More invitation.",
-    "intro": "If this page found you, I'd genuinely love to know your story too.",
-    "description": "I build software, chase interesting places, and enjoy people who bring curiosity, good stories, and a desire to learn new things. If that sounds like you, we'll probably get along.",
+    "intro": "You probably saw me somewhere and that is how you ended up here. Feel free to message me or come say hi. I am always up for new connections, interesting conversations, and spontaneous plans.",
+    "description": "",
     "primary_cta": "Send me a note",
     "secondary_cta": "Say hi on Instagram",
     "panel_title": "Current operating mode",
-    "panel_text": "Usually somewhere between making things on a laptop, noticing beautiful buildings, and collecting little moments worth talking about later.",
+    "panel_text": "Usually somewhere between building things on my laptop, roaming the city with friends, or going on spontaneous city trips",
     "tags": [
       "software with personality",
       "travels with a laptop",
@@ -21,36 +21,14 @@
       "Curious by default",
       "Fun over stiff",
       "Open to surprise plans"
-    ],
-    "stats": [
-      {
-        "value": "100%",
-        "label": "happy to meet new people",
-        "text": "Strangers are just future stories with better timing."
-      },
-      {
-        "value": "Laptop",
-        "label": "almost always nearby",
-        "text": "Usually accompanied by maps, screenshots, and half-finished ideas."
-      },
-      {
-        "value": "Yes",
-        "label": "to spontaneous plans",
-        "text": "Coffee, a walk, a museum, a side project, a good conversation."
-      },
-      {
-        "value": "Open",
-        "label": "for messages that feel human",
-        "text": "Short, real, playful beats polished every time."
-      }
     ]
   },
   "sections": {
     "about": {
-      "kicker": "What I'm like",
+      "kicker": "Who I am",
       "title": "The short version",
-      "p1": "Hi, I'm Kevin. If you're reading this, chances are we crossed paths somehow, and that already makes this page feel more fun than a normal portfolio. I'm the kind of person who likes making new connections instead of pretending to be mysterious on the internet.",
-      "p2": "I'm into software, travel, good design, beer, architecture, art, and those conversations that start small and suddenly become the highlight of the week. If you want to say hi, please do. I made this page for exactly that."
+      "p1": "Hi, I'm Kevin. I made this page because I like meeting new people, but when I am out on my own I far too often end up staring at my screen or forget to ask for contact details so we actually stay in touch. So this is an invitation: if you see me somewhere, come say hi or send me a message if you feel like having a conversation, staying in touch, or just saying hello.",
+      "p2": "I like software, travel, good design, beer, architecture, art, good conversations, and anything that makes it fun to spend time together."
     },
     "vibes": {
       "cards": [

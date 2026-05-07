@@ -21,15 +21,11 @@ window.AppSections.HeroSection = function HeroSection({
         <div className="cta-billboard">
 
           <button type="button" className="primary-btn primary-btn-hero cta-btn-with-icon" onClick={onScrollToContact}>
-            <span className="cta-btn-icon" aria-hidden="true">
-              <svg viewBox="-10 -10 40 40" role="presentation" focusable="false">
-                <path d="M5 3.5L18.4 15.2l-5.7.6 2.8 4.9-2.5 1.4-2.8-5-3.5 4.6z" />
-              </svg>
-            </span>
             <span className="primary-btn-label">{t('hero.primary_cta')}</span>
+            <span className="cta-btn-icon" aria-hidden="true">
+              <i className="fa-regular fa-hand-pointer"></i>
+            </span>
           </button>
-
-          <p className="cta-support">{t('sections.contact.intro')}</p>
 
           <a
             href="https://www.instagram.com/kevin.h______"
